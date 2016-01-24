@@ -1,5 +1,8 @@
 ## Programming Assignment 2 Coursera R Programming from John Hopkins
-##
+## The functions here are used to do the following:
+## to make cached matrix inverse and
+## to use cache matrix if it already there else compute it
+
 
 ## makeCacheMatrix: This function creates a special "matrix" object
 ## that can cache its inverse.
