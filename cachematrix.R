@@ -17,7 +17,7 @@ makeCacheMatrix <- function(matrix.param = matrix()) {
 	       get = get,
 	       setinverse = setinverse,
 	       getinverse = getinverse )
-}
+    }
 
 
 ## cacheSolve: This function computes the inverse of the
@@ -38,3 +38,14 @@ cacheSolve <- function(special.matrix , ...) {
 	special.matrix$setinverse(inverse.matrix)
 	inverse.matrix
 }
+
+## Testing the code
+## matrix.test <- matrix(rnorm(100), 10 ,10 )
+## matrix.in <- makeCacheMatrix(matrix.test)
+## matrix.in$get()
+## matrix.in$getinverse()
+## cacheSolve(matrix.in)
+## cacheSolve(matrix.in)
+## matrix.in$getinverse()
+
+
